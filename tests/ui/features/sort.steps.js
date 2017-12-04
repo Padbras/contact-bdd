@@ -1,4 +1,4 @@
-const {Given, Then, When} = require(' cucumber ');
+const {Given, Then, When} = require('cucumber');
 
 Given(/^The sort contact list is display$/, function (callback) {
     this.browser.visit(" http://127.0.0.1:3000", (err) => {
@@ -13,7 +13,6 @@ Given(/^The sort contact list is display$/, function (callback) {
         var i = 0;
         while (iterator.hasNext()) {
             var contact = iterator.next();
-            this.browser.assert.success(contact.firstName() === tab[j].innerHTML);
             tmpnom = nom[i].innerHTML;
             tmpprenom = prenom[i].innerHTML;
             this.browser.assert.success(tmpprenom === contact.firstName());
@@ -36,7 +35,7 @@ When(/^User clicks on sort button$/, function (callback) {
 Then(/^The contacts are sorted$/, function (callback) {
     this.browser.visit(" http://127.0.0.1:3000", (err) => {
 
-        var test = Contact.Contacts.instance();
+        var test = this.browser.tabs.current.Contact.Contacts.instance();
         var bouton = this.browser.query('#button_sort');
         var flag = true;
         bouton.click();

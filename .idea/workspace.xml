@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a6e6279-a714-4bbf-be1c-c35090649954" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ui/features/remove.steps.js" afterPath="$PROJECT_DIR$/tests/ui/features/remove.steps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ui/features/sort.feature" afterPath="$PROJECT_DIR$/tests/ui/features/sort.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ui/features/sort.steps.js" afterPath="$PROJECT_DIR$/tests/ui/features/sort.steps.js" />
     </list>
     <ignored path="contact.iws" />
@@ -97,8 +94,8 @@
       <file leaf-file-name="sort.steps.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/ui/features/sort.steps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="480">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -390,7 +387,7 @@
       <workItem from="1511264777740" duration="1541000" />
       <workItem from="1511268942348" duration="42000" />
       <workItem from="1512409697491" duration="3080000" />
-      <workItem from="1512413033112" duration="230000" />
+      <workItem from="1512413033112" duration="597000" />
     </task>
     <servers />
   </component>
@@ -427,11 +424,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4893000" />
+    <option name="totallyTimeSpent" value="5260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11770833" sideWeight="0.493266" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -765,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ui/features/sort.steps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
