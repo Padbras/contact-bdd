@@ -1,6 +1,6 @@
 const {Given, Then, When} = require(' cucumber ');
 
-Given(/^The contact list is display$/, function (callback) {
+Given(/^The sort contact list is display$/, function (callback) {
     this.browser.visit(" http://127.0.0.1:3000", (err) => {
 
         var contact = this.browser.tabs.current.Contact.Contacts.instance();
